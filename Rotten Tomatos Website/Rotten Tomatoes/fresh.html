@@ -1,0 +1,275 @@
+<!--
+Bavalan Thangarajah
+Student# 1002194564
+This assignment is for the purpose of creating a movie review website Rancid Tomatoes for the movie Sing. 
+This file is the html document which contains the grouping of 
+the pictures,reviews and overall content of the movie. 
+This file will lead you to the website that will contain the review for the movie sing.-->
+
+<!DOCTYPE html>
+<html lang = "en">
+	<!-- CSCB20 Assignment 2: Fresh Tomatoes Web page -->
+	<head>
+		<!-- Link to CSS file that you should create -->
+		<link href="fresh.css" type="text/css" rel="stylesheet"/>
+		<link href="https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/rotten.gif" type="image/gif" rel="icon"/>
+
+		<title>Sing - Rancid Tomatoes</title>
+
+		<meta charset="utf-8" />
+		<!-- this "base" element allows all image references below to be "relative",
+		     meaning that you the image name, such as "overview.png", is appended
+		     to this base URL.  NOTE however, that the same behavior will apply
+		     to any other URL's below, and so those will have to be replaced with
+		     absolute URL's written as "https://mathlab.../path_to_your_files".-->
+		<base href="https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/">
+		
+	</head>
+	<!-- The body of the entire page -->
+	<body>
+		<!-- The banner at the top of the page -->
+		<div class='banner' id="ban">
+			<img src="banner.png" alt="Rancid Tomatoes" />
+		</div>
+
+		<!-- The header that has the movie name and year -->
+		<h1>Sing(2016)</h1>
+		
+		<!-- Includes the border itself and all the information within it -->
+		<div class="box" id="boxed">
+			<!-- Contains the information thats only IN the border-->
+			<div class="overall" id="all">
+				<!-- Contains all the information that will appear on the right side within the border-->
+				<div class="rs" id="right">
+					<!-- The poster image-->
+					<div class="poster" id="post">
+						<img src="overview.png" alt="general overview" />
+					</div>
+					<!-- All the information about the movie(Cast,directors,rating,genre, etc)-->
+					<dl>
+						<dt>STARRING</dt>
+						<dd>Matthew McConaughey<br> Scarlett Johansson<br> Reese Witherspoon<br> Seth MacFarlane<br> Taron Egerton<br> John C. Reilly</dd>
+
+						<dt>DIRECTORS</dt>
+						<dd>Garth Jennings <br> Christophe Lourdelet</dd>
+						
+						<dt>SCREENWRITER</dt>
+						<dd>Garth Jennings</dd>
+
+						<dt>RATING</dt>
+						<dd>PG</dd>
+
+						<dt>RELEASE DATE</dt>
+						<dd>December 21, 2016</dd>
+						
+						<dt>RUNTIME</dt>
+						<dd>108 min</dd>
+
+						<dt>SYNOPSIS</dt>
+						<dd>A koala impresario stages a grand singing competition for the world's animals in order to save his elegant theater in this quirky animated musical.
+						</dd>
+						
+						<dt>STUDIO</dt>
+						<dd>Illumination Entertainment</dd>
+
+						<dt>GENRE</dt>
+						<dd>Genre:	Animation, Comedy, Musical &amp; Performing Arts</dd>
+
+						<dt>LINKS</dt>
+						<dd><a href="https://www.rottentomatoes.com/m/sing_2016">RT Home</a>
+						</dd>
+					</dl>
+				</div>
+				<!-- Contains all the information that will appear on the left side within the border-->
+				<div class="ls" id="left">
+					<!--The rating of the movie and tomatoe image-->
+					<div class="tom" id="tomtoe">
+						<img src="freshbig.png" alt="Fresh" />
+						73%
+					</div>
+					<!--All the review that appear on the left column -->
+					<div class="tot-rev" id="totalsleft">
+					<!--Individual reviews each review is labeled from 1-5 accordinglly-->
+					<!--Span contains the name of reviewers and company-->
+						<div class="rev" id="rev1">
+
+							<p>
+								<img src="rotten.gif" alt="Rotten">
+								<q>The movie doesn't come close to the humor and heart of [Illumination's] summer hit, The Secret Life of Pets..</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd1">
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Maricar Estrella <br> </span>
+								<span class="company"> Fort Worth Star-Telegram</span>
+							</p>
+						</div>
+					
+						<div class="rev" id="rev2">
+
+							<p>
+								<img src="fresh.gif" alt="Fresh">
+								<q>After conquering the box office with yellow minions and pets with secret lives, Illumination Entertainment returns with its sweetest and most charming project yet.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd2">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names">Devan Coggan<br> </span>
+								<span class="company"> Entertainment Weekly </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev3">
+
+							<p>
+								<img src="fresh.gif" alt="Fresh">
+								<q>Kids will like the animals and the mayhem and won't mind the predictable plot. Adults should appreciate the entertaining musical pairings.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd3">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Kate Taylor<br> </span>
+								<span class="company"> Globe and Mail </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev4">
+
+							<p>
+								<img src="fresh.gif" alt="Fresh">
+								<q>Sing doesn't have the grit or the grace notes of Zootopia.. No potent metaphors here about predators and victims - the film slides by simply by shaking its sillies out. You could do worse.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd4">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Peter Travers <br> </span>
+								<span class="company"> Rolling Stone </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev5">
+
+							<p>
+								<img src="rotten.gif" alt="Rotten">
+								<q>This movie sucks!!</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd5">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Kumar Soop <br> </span>
+								<span class="company"> ABC Inc </span>
+							</p>
+						</div>
+					</div>
+					<!--All the review that appear on the right column -->
+					<div class="tot-rev" id="totalsright">
+					<!--Individual reviews each review is labeled from 6-10-->
+					<!--Span contains the name of reviewers and company-->
+						<div class="rev" id="rev6">
+
+							<p>
+								<img src="fresh.gif" alt="Fresh">
+								<q>The plot may be shopworn, with not much aimed at adults, but the film's message that collaboration can reap greater rewards than competition is appropriate for all ages.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd6">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Andrea Gronvall <br> </span>
+								<span class="company"> Chicago Reader </span>		
+							</p>
+						</div>
+
+						<div class="rev" id="rev7">
+
+							<p>
+								<img src="rotten.gif" alt="Rotten">
+								<q>With the exception of Buster Moon's best friend, a sheep named Eddie and his once-famous theater star grandmother, Nana, every other character in this grand charade is a stereotype, and in the worst way possible.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd7">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Chelsey Grasso<br> </span>
+								<span class="company"> The Film Stage </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev8">
+
+							<p>
+								<img src="rotten.gif" alt="Rotten">
+								<q>The concept of the movie is so baffling that it seems to have been cobbled together, madlibs-style, from pieces of other projects.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd8">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Sophie Gilbert <br> </span>
+								<span class="company"> The Atlantic </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev9">
+
+							<p>
+								<img src="fresh.gif" alt="Fresh">
+								<q>While no masterpiece, Sing is a good deal of fun: Matthew McConaughey heads up a fine voice cast, and some of the singing is wonderful.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd9">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Paul Whitington<br> </span>
+								<span class="company"> Irish Independent </span>
+							</p>
+						</div>
+
+						<div class="rev" id="rev10">
+
+							<p>
+								<img src="rotten.gif" alt="Rotten">
+								<q>Horrible, just horrible.</q>
+							</p>
+						</div>
+						<div class="reviewd" id="reviewd10">
+
+							<p>
+								<img src="critic.gif" alt="Critic">
+								<span class="names"> Bavalan Thangarajah <br> </span>
+								<span class="company"> UTSC </span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--Number of review in each page-->
+				<div class="pages" id="pgs">
+					<p>(1-10) of 10</p>
+				</div>
+			</div>
+		</div>
+		<!--The links to the CSS and HTML checkers-->
+		<div class="links" id="lnk">
+			<p>
+		      <a href="http://validator.w3.org/check?uri=referer"><img
+		         src="http://www.w3.org/Icons/valid-xhtml10"
+		         alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+		    </p>
+		  
+				<a href="../../css_validator.php"><img src="w3c-css.png" alt="Valid CSS" /></a>
+		</div>
+	</body>
+</html>

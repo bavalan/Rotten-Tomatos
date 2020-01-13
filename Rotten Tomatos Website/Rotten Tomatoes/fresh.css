@@ -1,0 +1,182 @@
+/*
+Bavalan Thangarajah
+Student# 1002194564
+This assignment is for the purpose of creating a movie review website 
+Rancid Tomatoes for the movie Sing. This file is the css document which correlates to the file of 
+fresh.html.This where the editing of the design of the website will take place.
+This where style sheet occurs formatting,coloring,font size etc are applied here and then will
+transfer all the information applied here to the website 
+and update it's image.
+*/
+
+/* The entire page */
+body{
+	/* Whole page has background image background.png*/
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/background.png");
+	/* Whole page has font style Verdana with size 8pt */
+	font-size: 8pt;
+	font-family:Verdana;
+	/* Apply a margin and padding of 0*/
+	margin:0;
+	padding: 0;
+}
+
+/*The top of page */
+.banner{
+	/* Top of page has background image bannerbg.png*/
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/bannerbg.png");
+	/*Background image is centered with height of 50px*/
+	text-align: center;
+	height: 50px;
+
+}
+
+/*The movie title "Sing (2016)"*/
+h1{
+	/*Text is bolded,cenetred and has a font size of 32pt*/
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+	/* Applied a text-shadow with text location of 3px left and right with color of #999999*/
+	text-shadow: 3px 3px #999999
+}
+
+/*Overall content info of the movie*/
+.overall{
+	/*Overall movie content takes up 800px width of entire page*/
+	width:800px;
+	/*Applied a rounded gray border*/
+	border: gray solid 4px;
+	border-radius: 20px;
+	/*margin auto centers the image*/
+	margin:auto;
+	/*Any leakages of the image is contained within the border*/
+	overflow: hidden;
+}
+
+/* The left side of the page that contains the reviews,reviewers and total rating*/
+.ls{
+	/*The left side of the page has a width of 550px and height of 1020px*/
+	width:550px;
+	height: 1020px;
+}
+
+/*The overall rating of the movie*/
+.tom{
+	/*The overall rating of the movie has a background image rottenbg.png*/
+	background-image: url("https://mathlab.utsc.utoronto.ca/courses/cscb20w17/bretsche/assignments/a2/img/rottenbg.png");
+	height:83px;
+	/*The rating has a font-color of red, size of 48pt and is bolded*/
+	font-size: 48pt;
+	font-weight: bold;
+	color:red;
+
+}
+
+/*The tomatoe image*/
+.tom img{
+	/*The tomatoe image is vertically aligned with the rating text*/
+	vertical-align: text-bottom;
+}
+
+/*All of the reviews*/
+.tot-rev{
+	/*Is 47% in width within the border and formatted to the left*/
+	width:47%;
+	/*Each review has a spacing of 2% to the left of each other*/
+	margin-left: 2%;
+	float:left;
+}
+
+/*Each individual review*/
+.rev{
+	/*Has a font size of 8pt and is bolded*/
+	font-size: 8pt;
+	font-weight: bold;
+	/*Has a background color #E8DC9B with a rounded border*/	
+	background-color: #E8DC9B;
+	/*Has a gray rounded border */	
+	border: gray solid 2px;
+	border-radius: 10px;
+	padding: 8px;
+	margin-top: 3em;
+
+}
+
+/*Each review image*/
+.rev img{
+	/*Is aligned to the left*/
+	padding-right: 5px;
+	float:left;
+}
+
+/*The reviewers*/
+.reviewd{
+	/*Font is italic*/
+	font-style: italic;
+}
+
+/*Each reviewers image*/
+.reviewd img{
+	/*Is aligned to the left*/
+	padding-left: 5px;
+	float:left;
+}
+
+/*The right side of the border that contains the movies general info*/
+.rs{
+	/*Has a width of 250px and height of 1061px*/
+	width: 250px;
+	height:1061px;
+	/*Alligned to the right and has a font size of 8pt*/
+	float: right;
+	background-color: #A2B964;
+	font-family: Arial;
+	margin: auto;
+}
+
+/*Info headings are bolded*/
+dt{
+	font-weight: bold;
+	padding-left: 1em;
+
+}
+/*Information have 1em gap in the bottom*/
+dd{
+
+	padding-bottom: 1em;
+}
+
+/*The number of review in the pages*/
+.pages{
+	text-align: center;
+	background-color: #A2B964;
+	padding-bottom: 5px;
+	clear: both;
+
+}
+
+/*The CSS and HTML link checkers*/
+.links{
+	/*Alligned and postions to always be in the right corner*/
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+/*The CSS and HTML link checkers images have an opacity of 60%*/
+.links img{
+	opacity: 0.6;
+}
+
+/*The poster image has a width of 250px*/
+.poster img{
+
+	width:250px;
+}
+
+/*The names of the reviewers have a normal font style*/
+.names{
+	font-style:normal;
+}
